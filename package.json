@@ -1,6 +1,6 @@
 {
   "name": "vup",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Transcode and publish video",
   "main": "index.js",
   "dependencies": {
