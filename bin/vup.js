@@ -41,7 +41,7 @@ program
                     process.exit( 1 );
                 }
 
-                vup.publish( function( err ) {
+                vup.publish( opts, function( err ) {
                     if (err) {
                         return console.error( err );
                     }
