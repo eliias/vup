@@ -42,7 +42,7 @@ program
                         process.exit( 1 );
                     }
 
-                    vup.publish( opts, function( err ) {
+                    vup.publish( file, output, opts, function( err ) {
                         if (err) {
                             return console.error( err );
                         }

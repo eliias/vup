@@ -2,22 +2,20 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>Video</title>
+    <title>{{title}}</title>
     <link href="//vjs.zencdn.net/4.11/video-js.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <video
-                id="video"
-                class="video-js vjs-default-skin"
-                controls
-                preload="auto"
-                width="100%"
-                height="100%"
-                poster="test.png">
-            <source src="test.mp4" type="video/mp4">
-        </video>
-    </div>
-    <script src="//vjs.zencdn.net/4.11/video.js"></script>
+<video
+        id="video"
+        class="video-js vjs-default-skin"
+        controls
+        preload="auto"
+        width="100%"
+        height="100%"
+        poster="{{poster}}">
+    <source src="{{video}}" type="video/mp4">
+</video>
+<script src="//vjs.zencdn.net/4.11/video.js"></script>
 </body>
 </html>

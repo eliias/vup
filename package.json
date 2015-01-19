@@ -7,11 +7,12 @@
     "commander": "^2.6.0",
     "fluent-ffmpeg": "^2.0.0-rc3",
     "fs-extra": "^0.14.0",
+    "handlebars": "^2.0.0",
     "lodash": "^2.4.1",
     "mkdirp": "^0.5.0",
     "resolve": "^1.0.0",
     "rmdir": "^1.0.4",
-    "scp": "0.0.3"
+    "scp": "eliias/node-scp"
   },
   "devDependencies": {},
   "scripts": {
