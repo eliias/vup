@@ -5,3 +5,5 @@
 .npmignore
 test.mp4
 Vupfile.js
+dist
+npm-debug.log
