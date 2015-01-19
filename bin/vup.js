@@ -27,18 +27,6 @@ program
     .option( '-f', '--file', 'Use a different file than Vupfile.js' );
 
 program
-    .command( 'upload' )
-    .description( 'Upload dist directory' )
-    .action( function() {
-        vup.publish( opts, function( err ) {
-            if (err) {
-                return console.error( err );
-            }
-            console.log( 'Upload finished.' );
-        } );
-    } );
-
-program
     .command( 'publish <file> <output>' )
     .description( 'Transcode and publish given videofile' )
     .action( function( file, output ) {
@@ -52,6 +40,14 @@ program
                     console.error( err );
                     process.exit( 1 );
                 }
+
+                vup.publish( function( err ) {
+                    if (err) {
+                        return console.error( err );
+                    }
+
+                    console.log( 'All done.' );
+                } )
             } );
         } );
     } );
