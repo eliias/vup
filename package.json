@@ -4,7 +4,7 @@
   "description": "Transcode and publish video",
   "main": "index.js",
   "dependencies": {
-    "commander": "^2.6.0",
+    "commander": "^2.13.0",
     "fluent-ffmpeg": "^2.0.0-rc3",
     "fs-extra": "^4.0.0",
     "handlebars": "^4.0.6",
